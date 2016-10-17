@@ -5,6 +5,7 @@
 var loaderUtils               = require('loader-utils')
 ,   path                      = require('path')
 ,   fs                        = require('fs')
+,   glob                      = require('glob')
 
 module.exports = function(content) {
 
@@ -20,9 +21,10 @@ module.exports = function(content) {
       content:    content,
       regExp:     query.regExp
     })
-  // ,   result    = null
 
   var returnVal = {foo: 'bar'}
   return 'module.exports =  ' + JSON.stringify(returnVal)
 }
 module.exports.raw = true
+
+module.exports()

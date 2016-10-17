@@ -9,7 +9,9 @@
     "index.js"
   ],
   "dependencies": {
-    "loader-utils": "^0.2.12",
+    "fs": "0.0.1-security",
+    "glob": "^7.1.1",
+    "loader-utils": "^0.2.16",
     "path": "^0.12.7"
   },
   "devDependencies": {
@@ -24,7 +26,8 @@
     "url": "https://github.com/DoubleU23/dirfiles-loader"
   },
   "keywords": [
-    "webpack-loader", "file-loader"
+    "webpack-loader",
+    "file-loader"
   ],
   "homepage": "https://github.com/DoubleU23/dirfiles-loader",
   "main": "index.js",

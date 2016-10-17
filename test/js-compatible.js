@@ -26,7 +26,6 @@ function test(excepted, resourcePath, query, content) {
 
 describe('category', function() {
   it('test', function() {
-    var test = {foo: 'bar'}
-    test.should.be.eql({foo: 'bar'});
+    
   });
 });
