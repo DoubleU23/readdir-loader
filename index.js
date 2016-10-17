@@ -7,8 +7,7 @@ var loaderUtils               = require('loader-utils')
 ,   fs                        = require('fs')
 ,   glob                      = require('glob')
 
-module.exports = function(content) {
-
+module.exports = function (content) {
   if (process.env.NODE_ENV === 'production')
     this.cacheable && this.cacheable()
 
@@ -22,9 +21,9 @@ module.exports = function(content) {
       regExp:     query.regExp
     })
 
+console.log('[dirfiles-loader] content', content.toString(), query, this.options, this)
+
   var returnVal = {foo: 'bar'}
   return 'module.exports =  ' + JSON.stringify(returnVal)
 }
 module.exports.raw = true
-
-module.exports()
