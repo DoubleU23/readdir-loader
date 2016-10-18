@@ -1,10 +1,10 @@
 {
-  "name": "dirfiles-loader",
+  "name": "readdir-loader",
   "version": "0.0.1",
   "author": {
     "name": "Stefan Friedl @DoubleU23"
   },
-  "description": "webpack - load all files in given dir",
+  "description": "webpack - load all files/dirs in given dir",
   "files": [
     "index.js"
   ],
