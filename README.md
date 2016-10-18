@@ -8,9 +8,19 @@
     * recursive (if you want)
 
 ### usage
+**targetDir tree**  
+├── index.js  
+├── LICENSE  
+├── node_modules  
+├── package.json  
+├── README.md  
+└── test
 ```JavaScript
-const subdirs = require('readdir-loader!.') // '.' is the dir
-console.log(subdirs)
+const subdirs = require('readdir-loader!./targetDir')
+console.log(subdirs) // ['node_modules', 'test']
+
+const subdirs = require('readdir-loader?dirs=false&files=true!./targetDir')
+console.log(subdirs) // ['index.js', 'LICENSE', 'package.json', 'README.md']
 ```
 **CAUTION**  
 webpack-loaders are limited to targeting files  
