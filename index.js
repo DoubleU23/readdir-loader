@@ -12,9 +12,8 @@ module.exports = function (content) {
     // ensure emitFile
     if (!this.emitFile) throw new Error('emitFile is required from module system')
     // loader preset
-    var callback = this.async()
+    var callback  = this.async()
     ,   query     = loaderUtils.parseQuery(this.query)
-
     // loader code
     var PATH        = this.resourcePath
     ,   DIR         = path.dirname(PATH)
@@ -27,11 +26,11 @@ module.exports = function (content) {
       }
     ,   basename    = query.directories != null ? query.directories : true
 
-    dive(DIR, diveOptions, (err, file, stat) => {
+    dive(DIR, diveOptions, function (err, file, stat) {
         if (err) throw err
         var match = basename ? path.basename(file) : file
         matches.push(match)
-    }, () => {
+    }, function () {
         var result = 'module.exports =  ' + JSON.stringify(matches)
         callback(null, result)
     })
