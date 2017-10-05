@@ -1,6 +1,10 @@
 # readdir-loader
 > load all files in given dir
 
+[![dependencies Status](https://david-dm.org/doubleu23/readdir-loader/status.svg)](https://david-dm.org/doubleu23/readdir-loader)
+[![devDependencies Status](https://david-dm.org/doubleu23/readdir-loader/dev-status.svg)](https://david-dm.org/doubleu23/readdir-loader?type=dev)
+[![Known Vulnerabilities](https://snyk.io/test/github/doubleu23/readdir-loader/badge.svg)](https://snyk.io/test/github/doubleu23/readdir-loader)
+
 ### basic information
 * webpack loader
 * read dir's content via 'dive' pckg  
