@@ -3,7 +3,7 @@
 
 [![dependencies Status](https://david-dm.org/doubleu23/readdir-loader/status.svg)](https://david-dm.org/doubleu23/readdir-loader)
 [![devDependencies Status](https://david-dm.org/doubleu23/readdir-loader/dev-status.svg)](https://david-dm.org/doubleu23/readdir-loader?type=dev)
-[![Known Vulnerabilities](https://snyk.io/test/github/doubleu23/readdir-loader/badge.svg)](https://snyk.io/test/github/doubleu23/readdir-loader)
+[![Known Vulnerabilities](https://snyk.io/test/github/doubleu23/readdir-loader/badge.svg)](https://snyk.io/test/github/doubleu23/readdir-loader) [![Greenkeeper badge](https://badges.greenkeeper.io/DoubleU23/readdir-loader.svg)](https://greenkeeper.io/)
 
 ### basic information
 * webpack loader
