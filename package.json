@@ -14,7 +14,7 @@
     "path": "^0.12.7"
   },
   "devDependencies": {
-    "mocha": "^2.3.4",
+    "mocha": "^7.1.1",
     "should": "^7.1.1"
   },
   "scripts": {
